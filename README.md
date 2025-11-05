@@ -1,20 +1,49 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🎮 비주얼 노벨 크리에이터 (Visual Novel Creator)
 
-# Run and deploy your AI Studio app
+![Visual Novel Creator Screenshot](./assets/ui.png)
+
+**비주얼 노벨 크리에이터**는 AI를 활용하여 스토리, 캐릭터, 배경, 대사를 자동으로 생성하고  
+시각적인 인터페이스에서 쉽게 편집할 수 있는 웹 기반 비주얼 노벨 제작 툴입니다.  
+복잡한 코딩 없이도 누구나 인터랙티브 스토리텔링 게임을 만들 수 있도록 설계되었습니다.
+
+---
+
+## ✨ 주요 기능
+
+| 기능 | 설명 |
+|------|------|
+| **AI 스토리 생성기** | 키워드나 테마 한 줄로 기승전결 구조의 스토리를 자동 생성합니다. |
+| **씬 트리 편집기(Scene Tree)** | 장면(씬) 간의 분기 구조를 시각적으로 확인하고 자유롭게 재배치할 수 있습니다. |
+| **캐릭터 매니저** | 캐릭터 이름, 표정 이미지, 역할 등을 손쉽게 설정하고 관리할 수 있습니다. |
+| **AI 대사 및 배경 생성** | 상황에 어울리는 대사와 배경 이미지를 AI가 자동 생성합니다. |
+| **Ren’Py로 내보내기** | 클릭 한 번으로 Ren’Py용 `.rpy` 스크립트 파일로 변환해 실제 게임으로 실행할 수 있습니다. |
+| **실시간 미리보기** | 작성 중인 스토리를 즉시 재생하며 흐름과 선택지를 점검할 수 있습니다. |
+
+---
+
+## 🧠 기술 스택
+
+- **프론트엔드:** React, Next.js, TailwindCSS  
+- **AI 엔진:** Gemini / OpenAI API  
+- **백엔드(선택):** Node.js (Express)  
+- **출력 포맷:** JSON, Ren’Py Script
+
+---
+
+## 🚀 로컬 실행 방법
+
+### 1️⃣ 사전 준비
+- Node.js (버전 18 이상이 필요합니다.)
+
+### 2️⃣ 설치
+```bash
+npm install
+```
 
 This contains everything you need to run your app locally.
 
 View your app in AI Studio: https://ai.studio/apps/drive/1AUp6pbKjaUFRW544WxqCBjxEToKUrC07
 
-## Run Locally
-
-**Prerequisites:**  Node.js
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+
