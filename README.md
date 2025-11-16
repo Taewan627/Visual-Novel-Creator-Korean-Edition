@@ -6,6 +6,7 @@
 시각적인 인터페이스에서 쉽게 편집할 수 있는 웹 기반 비주얼 노벨 제작 툴입니다.  
 복잡한 코딩 없이도 누구나 인터랙티브 스토리텔링 게임을 만들 수 있도록 설계되었습니다.
 
+https://huggingface.co/spaces/devmeta/visual-novel-creator-v2
 ---
 
 ## ✨ 주요 기능
