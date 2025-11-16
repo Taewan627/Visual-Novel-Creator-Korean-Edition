@@ -31,17 +31,6 @@ https://huggingface.co/spaces/devmeta/visual-novel-creator-v2
 
 ---
 
-## 🚀 로컬 실행 방법
-
-### 1️⃣ 사전 준비
-- Node.js (버전 18 이상이 필요합니다.)
-
-### 2️⃣ 설치
-```bash
-npm install
-```
-
-
 
 
 
